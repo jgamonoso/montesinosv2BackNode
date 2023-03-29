@@ -1,20 +1,30 @@
-# Archivos y directorios generados automáticamente
-node_modules/
-npm-debug.log
-yarn-error.log
+# Archivos de registro
+*.log
 
-# Archivos de configuración del entorno
+# Directorio de dependencias de Node.js
+node_modules/
+
+# Archivos de entorno
 .env
 
-# Archivos del sistema operativo y del editor de texto
-.DS_Store
-Thumbs.db
+# Archivos de caché
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache
+
+# Directorio de compilación
+dist/
+
+# Archivos temporales
+*.tmp
 *.swp
 *.swo
-*.swn
-*.bak
-*.tmp
-*.sublime*
-*.iml
-.idea/
+*~.nib
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos y directorios específicos de Visual Studio Code
 .vscode/
